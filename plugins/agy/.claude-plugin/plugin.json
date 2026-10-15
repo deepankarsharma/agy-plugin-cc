@@ -1,0 +1,19 @@
+{
+  "name": "agy",
+  "version": "1.0.0",
+  "description": "Use Antigravity (agy) from Claude Code to review code or delegate tasks with Gemini 4 Argon (High) by default.",
+  "author": {
+    "name": "deepankarsharma"
+  },
+  "homepage": "https://github.com/deepankarsharma/agy-plugin-cc",
+  "repository": "https://github.com/deepankarsharma/agy-plugin-cc",
+  "keywords": [
+    "antigravity",
+    "agy",
+    "gemini",
+    "argon",
+    "review",
+    "delegation",
+    "claude-code-plugin"
+  ]
+}

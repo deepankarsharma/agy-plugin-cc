@@ -1,0 +1,21 @@
+{
+  "name": "agy-plugin-cc",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Use Antigravity (agy) from Claude Code to review code or delegate tasks.",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deepankarsharma/agy-plugin-cc.git"
+  },
+  "homepage": "https://github.com/deepankarsharma/agy-plugin-cc#readme",
+  "engines": {
+    "node": ">=18.18.0"
+  },
+  "scripts": {
+    "bump-version": "node scripts/bump-version.mjs",
+    "check-version": "node scripts/bump-version.mjs --check",
+    "test": "node --test tests/*.test.mjs"
+  }
+}

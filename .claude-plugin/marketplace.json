@@ -1,0 +1,32 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "agy-plugin-cc",
+  "description": "Use Antigravity (agy) from inside Claude Code for code review, adversarial review, task delegation, and session transfer with Gemini 4 Argon (High) by default.",
+  "owner": {
+    "name": "deepankarsharma"
+  },
+  "metadata": {
+    "description": "Antigravity (agy) plugins to use in Claude Code for delegation and code review.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "agy",
+      "description": "Use Antigravity (agy) from Claude Code to review code or delegate tasks.",
+      "version": "1.0.0",
+      "author": {
+        "name": "deepankarsharma"
+      },
+      "source": "./plugins/agy",
+      "category": "ai",
+      "keywords": [
+        "antigravity",
+        "agy",
+        "gemini",
+        "argon",
+        "review",
+        "delegation"
+      ]
+    }
+  ]
+}
